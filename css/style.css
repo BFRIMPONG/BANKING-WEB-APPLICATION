@@ -1,40 +1,77 @@
-body{
-    margin: 0;
-    padding: 0;
-
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-
-.header{
+.holder{
     width: 100%;
-    height:150px;
-    border: solid green;
-    position: relative;
-    
-    
 }
-
-.logo{
-    position: relative;
+.nav-bar{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px 0.1px rgb(0,0,0,0.1);
+    color: #262626;
 }
+.pic{
 
-.header nav{
-    width: 80%;
-    height: 40px;
-    border: solid ;
-    text-align: center;
-    justify-content: space-around;
-    
+    padding: 20px;
 }
+.pic img{
+    height: 100px;
+    width: 150px;
+    float: left;
+    cursor: pointer;
 
-.header nav a{
-    text-align: center;
+}
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+}
+.nav-bar ul li{
+    padding: 20px;
+
+}
+.nav-bar ul li a{
     text-decoration: none;
+    color: #504e4e;
+}
+.nav-bar ul li a:hover{
+    color: rgb(202, 3, 3);
+    border-bottom: 1px solid red;
+}
+.click{
+    width:auto;
+    background-color: #ffffff;
+    display: flex;
+    border: 1px solid black;
+    padding:10px 15px;
+    cursor: pointer;
     
 }
-
-hr{
-    width: 5%;
-    margin-right: 1800px;
+.click img{
+    height: 20px;
+    width: 20px;
+    color: red;
+    padding: 0px 10px 0px 10px;
+}
+.box{
+    /* width: 50px; */
+    border: 1px solid black;
+    padding: 0px 10px 0px 10px;
+    border-radius: 25px;
+}
+.txt{
+    border: none;
+    outline: none;
+    font-size: 16px;
 }
 
+span{
+    padding-left: 10px
+}
+
+/* button{
+    width: 10px
+} */

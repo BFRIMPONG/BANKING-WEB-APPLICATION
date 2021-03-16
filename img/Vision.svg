@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Vision</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vision" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(14.000000, 24.000000)">
+            <path d="M18.5676905,19.5912621 C18.7110716,19.5970687 18.8551935,19.6 19,19.6 C24.7989899,19.6 29.5,14.8989899 29.5,9.09999999 C29.5,8.89563818 29.4941617,8.69263998 29.4826428,8.49116307 C29.9800161,8.43097647 30.4863906,8.40000001 31,8.40000001 C37.9035594,8.40000001 43.5,13.9964406 43.5,20.9 C43.5,27.8035594 37.9035594,33.4 31,33.4 C24.0964406,33.4 18.5,27.8035594 18.5,20.9 C18.5,20.4580212 18.5229387,20.0214001 18.5676905,19.5912621 Z" id="Combined-Shape" fill="#D51709" fill-rule="nonzero"></path>
+            <g id="Group-9" stroke="#222222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <path d="M62,21 C62,21 53,42 31,42 C9,42 0,21 0,21 C0,21 9,0 31,0 C53,0 62,21 62,21 Z" id="Stroke-1"></path>
+                <path d="M31,42 C19.402,42 10,32.598 10,21" id="Stroke-3"></path>
+                <path d="M31,0 C42.598,0 52,9.402 52,21" id="Stroke-5"></path>
+                <path d="M28.415,9.2886 L28.413,9.2826 C29.263,9.0946 30.13,8.9996 31,8.9996 C38.302,8.9996 44.169,15.6636 42.801,23.1926 C41.921,28.0356 38.035,31.9206 33.192,32.8006 C25.664,34.1686 19,28.3016 19,20.9996 C19,20.2126 19.077,19.4266 19.231,18.6546 L19.238,18.6556 C24.781,19.7606 29.633,14.8086 28.415,9.2886 Z" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
