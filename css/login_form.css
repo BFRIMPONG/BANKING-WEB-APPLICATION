@@ -1,0 +1,129 @@
+
+.login-container {
+	background: #f6f5f7;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	font-family: 'Montserrat', sans-serif;
+	height: 50vh;
+    margin: 30px auto;
+}
+
+.red {
+	margin: 0;
+    color: #be0811;
+}
+
+h2 {
+	text-align: center;
+}
+
+#currency {
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+
+#currency{
+	font-size: 20px;
+	font-weight: 600;
+}
+#balance{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+form a {
+	color: #333;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+button {
+	border-radius: 5px;
+	background-color: #be0811;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+
+.sign-in-container input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+.login-container {
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.login-container {
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+}
+
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.overlay {
+	color:black;
+}
+
+#container{
+	display: block;
+}
+
+#depositForm{
+	display: block;
+}
+
+
+
+
+

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/login_form.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
@@ -60,82 +61,39 @@
 
             </div>
 
-        
-            <div class="grad">
-                <div class="header">
-                    <div>Site<span>Random</span></div>
+            
+    
+            <div class="login-container" id="container">
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1 class="blue">Sign in</h1>
+                        <span>and make a deposit</span>
+                        <input type="name" placeholder="Username" />
+                        <input type="password" placeholder="Password" />
+                        <a href="#">Forgot your password?</a>
+                        <a href="deposit.html"><button id="signIn">Sign In</button></a>
+                    </form>
                 </div>
-                <br>
-                <div class="login">
-                        <input type="text" placeholder="username" name="user"><br>
-                        <input type="password" placeholder="password" name="password"><br>
-                        <input type="button" value="Login">
+              
                 </div>
             </div>
-
-          
-         <!-- <div class="content-box">
-                    <div class="content-box1">
-                        <div class="grid-content">
-                            <div>
-                                <img src="img/UBA-Mobile-Banking-3.jpg" alt="">
-                            </div>
-                            <div>
-                                
-                                <h3> Mobile Banking</h3>
-                                <p>UBA Mobile Banking App is an electronic banking <br>
-                                    product that allows customers to access their bank <br>
-                                    account via their mobile phones. <br>
-                                </p>
-                            </div>
-                            <div><h3>Internet Banking</h3>
-                               
-                                <p>
-                                    Internet banking service allows customers to conduct <br>
-                                    financial transactions via the world wide web from their <br>
-                                    home, office or on the move.
-
-                                </p>
-                            </div>
-                            <div><img src="img/uba-brand-new-banking-experience-4.jpg" ></div>
-                            <div><img src="img/UBA-Instant-Bills.jpg"></div>
-                            <div><h3>Notification Services</h3>
-                                <br>
-                                <p>
-                                    Notification services is a platform that allows customers <br>
-                                    receive notice of transactions in your account(s).
-                                </p>
-                            
-                            </div>
-                            <div>
-                                
-                                <h3>Instant Bills</h3>
-                                <br>
-                                <p>
-                                    BIX Bank's online collection platform will enable you accept <br>
-                                    payment of funds on the web via UBA payment gateway. <br>
-                                    Instant Bills Pay is our hosted online payment bill <br>
-                                    collection website for various billers. Each biller has a <br>
-                                    dedicated page with customizable collection platform.
-
-                            </div>
-                            <div>
-                                <img src="img/UBA-Instant-Bills-1.jpg" alt="">                                
-                            </div>
-
-                    </div>
- -->
-                <div class="login-container" id="container"></div>
-                <div class="login-container" id="depositForm">
-                    <form action="">
-                        <h1 class="red">Deposit Form</h1><br>
-                        <h3>Enter deposit amount in GH¢ </h3>
-                        <input id="depositAmount" type="number" placeholder="Amount">
+    
+            <div class="login-container" id="depositForm">
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1 class="red">Deposit Form</h1>
+                        <span>Enter amount to deposit in GH¢.</span>
+                        <input id="depositAmount" type="number" placeholder="Amount" />
                         <button id="deposit">Deposit</button>
-                        <button id="signOutButton" onclick="signOut()">Sign Out</button>
+                        <button id="signOutBottom" onclick="signOut()">Sign out </button>
+                        <div id="bank-details" class="overlay-panel overlay-right">
+                            <h1>Balance: </h1>
+                            <p id="currency">GH¢ <span id="balance">0.00</span></p>
+                        </div>
                     </form>
-                </div>   
-
+                </div>
+            </div>
+    
                 <footer>
                     <div class="footer">
                         <div class="footer-wrapper">
@@ -198,6 +156,6 @@
                 </footer>
         
     </div>            
-    <script src="js/e-banking.js"></script>
+    <script src="js/account.js"></script>
 </body>
 </html>

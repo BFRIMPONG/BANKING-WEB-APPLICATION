@@ -174,8 +174,8 @@ about.html */
     grid-template-rows: 1fr, 1fr;
     width: 100%;
     height: 250px;
-    border: solid red;
-    background-color: aqua;    
+    /* border: solid red; */
+    /* background-color: aqua;     */
 }
 
 .grid-container{
@@ -189,36 +189,39 @@ about.html */
 .grid-container1{
   display: grid;
   /* border: solid green; */
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows:1fr;
 
 }
 .grid-container1 > div {
    border: solid brown; 
-  
-
+   padding: 20px;
 }
+
 .grid-container p{
   color: #717171;
   font-size: 25px;
-  text-align: center
-}
-/* #learn{
-  width: 200px;
-  height: 60px;
-  background:#be0811;
-  color: #fff;   
-  padding: 20px 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
   text-align: center;
-  align-items: center;
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin: 0 auto; 
+}
 
-} */
+.grid-container1 p{
+  color: #717171;
+  font-size: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.board p {
+  color:  #be0811;
+  font-size: 25px;
+  text-align: center
+
+}
+.board{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 #bank{
 text-align: left;
 
@@ -309,8 +312,9 @@ contact.html */
 }
 
 .grid-content > div {
+  padding: 30px;
 
-  border: solid brown;  
+  
  
 }
 
@@ -338,6 +342,7 @@ h3{
   padding: 10 auto;
   color: #717171;
 }
+
 #send{
   color: #ffff;
   background-color:#be0811;
@@ -368,223 +373,15 @@ h3{
 /* E-Banking Page
 e-banking.html */
 
-@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
 
-/* body{
-	margin: 0;
-	padding: 0;
-	background: #fff;
 
-	color: #fff;
-	font-family: Arial;
-	font-size: 12px;
-}
-
-.grad{
-	
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
-	/* z-index: 1;
-	opacity: 0.7;
-  border: solid green;
-} */
-
-.header{
-	/* position: absolute; */
-	top: calc(50% - 35px);
-	left: calc(50% - 255px);
-	z-index: 2;
-}
-/* 
-.header div{
-	float: left;
-	color: #fff;
-	font-family: 'Exo', sans-serif;
-	font-size: 35px;
-	font-weight: 200;
-} */
-
-.header div span{
-	color: #5379fa !important;
-}
-
-/* .login{
-	/* position: absolute; */
-	/* top: calc(50% - 75px);
-	left: calc(50% - 50px);
-	height: 150px;
-	width: 350px;
-	padding: 10px;
-	z-index: 2;
-} */  */
-/* 
-.login input[type=text]{
-	width: 250px;
-	height: 30px;
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Exo', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	padding: 4px;
-}
-
-.login input[type=password]{
-	width: 250px;
-	height: 30px;
-	background: transparent;
-	border: 1px solid rgba(255,255,255,0.6);
-	border-radius: 2px;
-	color: #fff;
-	font-family: 'Exo', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	padding: 4px;
-	margin-top: 10px;
-}
-
-.login input[type=button]{
-	width: 260px;
-	height: 35px;
-	background: #fff;
-	border: 1px solid #fff;
-	cursor: pointer;
-	border-radius: 2px;
-	color: #a18d6c;
-	font-family: 'Exo', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	padding: 6px;
-	margin-top: 10px;
-} */
-
-.login input[type=button]:hover{
-	opacity: 0.8;
-}
-
-.login input[type=button]:active{
-	opacity: 0.6;
-}
-
-.login input[type=text]:focus{
-	outline: none;
-	border: 1px solid rgba(255,255,255,0.9);
-}
-
-.login input[type=password]:focus{
-	outline: none;
-	border: 1px solid rgba(255,255,255,0.9);
-}
-
-.login input[type=button]:focus{
-	outline: none;
-}
-
-::-webkit-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
-
-::-moz-input-placeholder{
-   color: rgba(255,255,255,0.6);
-}
-
-/* Style inputs
-input[type=text], select, textarea {
+.login_form{
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-} */
-
-/* .grid-content span:hover{
-  color: #717171;
-  cursor: pointer;
-} */
-/* Style inputs */
-/* input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical; */
-/* } */
-
-/* input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
- */
-
-
- 
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 300px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-} */
-/* 
-.hover-container{
-  position: relative; 
-  width: 100%;
-  max-width: 400px;
-}
-.hover-container img{
-  display: block;
-  width: 100%;
+  border: solid blue;
+  justify-content: center;
+	top: 0;
+  width: 50%;
   height: auto;
+  display: block;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  background-color: red;
-}
-
-.hover-container:hover .overlay {
-  opacity: 1;
-}
-
-.overlay img {
-  color: white;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-} */
