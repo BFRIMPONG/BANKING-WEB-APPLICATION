@@ -205,8 +205,14 @@ about.html */
 
 }
 .grid-container1 > div {
-   border: solid brown; 
+   
    padding: 20px;
+}
+.grid-container1 img {
+  width: 200px;
+  height: 200px;
+  border: solid gray; 
+
 }
 
 .grid-container p{
@@ -219,13 +225,15 @@ about.html */
 .grid-container1 p{
   color: #717171;
   font-size: 25px;
-  text-align: center;
+  /* text-align: center; */
   font-family: Arial, Helvetica, sans-serif;
 }
 .board p {
   color:  #be0811;
-  font-size: 25px;
-  text-align: center
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
 
 }
 .board{
