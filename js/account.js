@@ -24,11 +24,11 @@ signInBtn.addEventListener('click', function(){
 
 function isLoggedIn(){
   if(localStorage.getItem('username') != ""){
-    // document.querySelector("#welcome-msg").innerText = "Welcome " + localStorage.getItem('username');
+    document.querySelector("#welcome-msg").innerText = "Welcome " + localStorage.getItem('username');
     container.style.display = "none";
     depositForm.style.display = "block";
     balance.innerText = localStorage.getItem('balance');
-    // signOutBtn.style.visibility = "visible";
+    signOutBtn.style.visibility = "visible";
   }
   else{
     depositForm.style.display = "none";
@@ -41,7 +41,7 @@ function signOut(){
   localStorage.setItem('password', '');
   localStorage.setItem('balance', '0.00');
   container.style.display = "block";
-  // document.querySelector("#welcome-msg").innerText = "Welcome to E-banking"
+  document.querySelector("#welcome-msg").innerText = "Welcome to E-banking"
   depositForm.style.display = "none";
 }
 
@@ -57,7 +57,7 @@ function deposit(){
   // set the balance innerText to the new balance from the cookie
   balance.innerText = localStorage.getItem("balance");
   amountInp.value = "";
-  alert("Deposit of Ghs " + depositAmount + " made.\nNew balance is Ghs " + localStorage.getItem("balance"));
+  alert("Deposit of Gh¢ " + depositAmount + " made.\nNew balance is Gh¢ " + localStorage.getItem("balance"));
 }
 
 function getCookie(cname) {

@@ -1,7 +1,15 @@
 /* Home Page
 index.html */
 
+html {
+  zoom: 80%;
+}
+
 * {box-sizing:border-box} 
+
+html {
+  text-size-adjust: 80%;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -88,7 +96,8 @@ index.html */
 }
 
 
-h1{
+h1,
+#welcome-msg {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
     margin-top: 0px;
@@ -183,6 +192,8 @@ about.html */
   /* border: solid green; */
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows:1fr;
+  padding:20px;
+  padding-left: 20px;
 
 }
 
